@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #313131;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    color: orange;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form button {
+    color: orange;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background: orange;
+    color: white;
+}
+
