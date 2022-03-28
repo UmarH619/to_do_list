@@ -27,6 +27,7 @@ header, form {
 form input, form button {
     padding: 0.5rem;
     font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
     border: none;
     background: white;
 }
@@ -78,4 +79,17 @@ form button:hover{
 
 .complete-btn {
     background: rgb(35, 168, 35);
+}
+
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+
+.fa-solid {
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
 }
