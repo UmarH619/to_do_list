@@ -4,9 +4,9 @@ A simple todo list that you can use to keep track of completed and uncompleted t
 
 ## Features:
 
--Add new todos
--Delete unwanted todos
--Filter between all, completed and uncompleted
+- Add new todos
+- Delete unwanted todos
+- Filter between all, completed and uncompleted
 
 ## Languages used:
 
