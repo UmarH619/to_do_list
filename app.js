@@ -26,13 +26,16 @@ function addTodo(event){
 
     //Completed Button
     const completedButton = document.createElement('button');
-    completedButton.innerHTML = <i class="fa-solid fa-circle-check"></i>;
+    completedButton.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
 
     //Delete Button
     const deleteButton = document.createElement('button');
-    deleteButton.innerHTML = <i class="fa-solid fa-circle-trash"></i>;
-    deleteButton.classList.add("delete-btn");
+    deleteButton.innerHTML = '<i class="fa-solid fa-circle-minus"></i>';
+    deleteButton.classList.add("complete-btn");
     todoDiv.appendChild(deleteButton);
+
+    //Appennd To List
+    todoList.appendChild(todoDiv)
 }
